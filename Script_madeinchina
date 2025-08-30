@@ -1,0 +1,13 @@
+-- Script sederhana contoh
+print("Halo Roblox! Script berhasil dijalankan.")
+
+-- Contoh tambah GUI
+local ScreenGui = Instance.new("ScreenGui")
+local TextLabel = Instance.new("TextLabel")
+
+ScreenGui.Parent = game.CoreGui
+TextLabel.Parent = ScreenGui
+TextLabel.Size = UDim2.new(0, 300, 0, 50)
+TextLabel.Position = UDim2.new(0.5, -150, 0.1, 0)
+TextLabel.Text = "Script Berjalan!"
+TextLabel.TextScaled = true
